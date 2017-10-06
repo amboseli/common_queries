@@ -1,4 +1,5 @@
-# Jake Gordon, Oct 2017
+# README.md
+Jake Gordon, Oct 2017
 
 This repo gives examples of how to write a query to do some common tasks
 in Babase. These queries are intended to serve as examples. Users should
