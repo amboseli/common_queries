@@ -1,0 +1,6 @@
+-- Query to get cumulative rainfall from the first year of an individual's life
+
+select biograph.birth, biograph.sname, sum(rain)
+	from min_maxs_sorted
+	join biograph on min_maxs_sorted.wrdaytime >= biograph.birth and min_maxs_sorted.wrdaytime < biograph.birth + 365
+	group by biograph.birth, biograph.sname
